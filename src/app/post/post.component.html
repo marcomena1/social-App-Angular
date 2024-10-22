@@ -1,0 +1,34 @@
+<div class="post card mb-5">
+    <div class="card-header d-flex align-items-center">
+        <img src="../../assets/pngtree-business-people-avatar-icon-user-profile-free-vector-png-image_4815126.jpg"
+            alt="User Avatar" class="avatar">
+        <div class="user-details ms-3">
+            <h3 class="username">Marco</h3>
+            <small class="post-date">Posted on {{ post.createdAt | date }}</small>
+        </div>
+    </div>
+    <div class="card-content mt-3">
+        <p class="post-content">{{ post.content }}</p>
+        <app-reactions></app-reactions>
+        <div class="comments-section mt-4">
+            <h5>Comments:</h5>
+            <div *ngFor="let comment of post.comments" class="comment mb-3 p-3">
+                <div class="comment-header d-flex align-items-center">
+                    <img src="../../assets/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.webp"
+                        alt="User Avatar" class="avatar">
+
+                    <div class="comment-details">
+                        <h2 class="username">Momo</h2>
+                        <small class="comment-date">Commented on {{ comment.createdAt | date }}</small>
+                    </div>
+                </div>
+                <p class="comment-content mt-2">{{ comment.content }}</p>
+            </div>
+        </div>
+        <div class="card-actions mt-4">
+            <input type="text" #commentInput placeholder="Add a comment" class="form-control comment-input">
+            <button class="btn btn-primary mt-2 comment-button"
+                (click)="addComment(commentInput.value)">Comment</button>
+        </div>
+    </div>
+</div>

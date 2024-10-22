@@ -1,0 +1,170 @@
+/* Post Card Styling */
+.post.card {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Enhanced shadow */
+    background-color: #f7fafc;
+    /* Lighter background for better contrast */
+}
+
+.h2 {
+    font-size: 1.1rem;
+
+}
+
+/* Header Styling */
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Avatar Styling */
+.avatar {
+    border-radius: 50%;
+    /* Perfect circle */
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    /* Slightly smaller margin */
+    object-fit: cover;
+    /* Ensure the avatar is fully covered */
+}
+
+/* User Details */
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    /* Slightly smaller font */
+}
+
+.user-details small {
+    color: #888;
+    /* Subtle date text */
+}
+
+/* Post Content */
+.card-content {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+    /* Darker text for better readability */
+}
+
+/* Comment Section */
+.comments-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.comment {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    /* Add some padding for better alignment */
+    background-color: #f9f9f9;
+    /* Light background for comment */
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    /* Subtle shadow */
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.comment-avatar {
+    border-radius: 50%;
+    /* Comment avatars also circular */
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+
+.comment-content {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Card Actions (Comment Input & Button) */
+.card-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.comment-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* Slightly more rounded */
+    margin-right: 10px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.comment-input:focus {
+    border-color: #DF4C73;
+    /* Highlighted border on focus */
+    outline: none;
+}
+
+.comment-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #DF4C73;
+    /* Keep the button color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-button:hover {
+    background-color: #c24063;
+    /* Slightly darker on hover */
+}
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .post.card {
+        padding: 10px;
+    }
+
+    .avatar,
+    .comment-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .comment-input {
+        font-size: 0.85rem;
+    }
+
+    .comment-button {
+        font-size: 0.85rem;
+        padding: 8px 12px;
+    }
+}

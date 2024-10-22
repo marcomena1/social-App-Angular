@@ -1,0 +1,5 @@
+<div class="reactions">
+    <span *ngFor="let emoji of emojis" (click)="react(emoji)" class="emoji">
+        {{ emoji }}
+    </span>
+</div>

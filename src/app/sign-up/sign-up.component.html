@@ -1,0 +1,25 @@
+<div class="background-container">
+    <div class="form-box ">
+        <form action="">
+            <h5 class="card-title">Register</h5>
+            <div class="inputbox mb-3">
+                <label class=" form-label" for=""> Usename</label>
+                <input class="form-control" type="text" id="username" name="username" autofocus required
+                    [(ngModel)]="signupObj.userName">
+
+            </div>
+            <label class="form-label" for="email">Email</label>
+            <input class="form-control" type="email" id="email" name="email" [(ngModel)]="signupObj.email" required>
+            <div class="valid-feedback">Looks good!</div>
+
+            <div class="inputbox">
+                <label class="form-label" for=""> password </label>
+                <input class="  form-control " type="password" id="password" name="password" required
+                    [(ngModel)]="signupObj.password">
+
+            </div>
+            <button (click)="onSignup()" class="btn btn-success btn-block" type="submit">Register</button>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+.reactions {
+    display: flex;
+    justify-content: flex-end;
+    /* Align items to the right */
+    margin-top: 10px;
+    /* Space from the content */
+}
+
+.emoji {
+    cursor: pointer;
+    font-size: 1.5rem;
+    /* Size of emojis */
+    transition: transform 0.2s;
+}
+
+.emoji:hover {
+    transform: scale(1.2);
+    /* Scale effect on hover */
+}

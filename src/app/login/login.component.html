@@ -1,0 +1,22 @@
+<div class="background-container">
+    <div class="form-box ">
+        <form action="">
+            <h2>Login</h2>
+            <div class="inputbox mb-3">
+                <label class=" form-label" for=""> Usename</label>
+                <input class="form-control" type="text" id="username" name="username" autofocus required
+                    [(ngModel)]="loginObj.userName">
+
+            </div>
+            <div class="inputbox">
+                <label class="form-label" for=""> password </label>
+
+                <input class="  form-control " type="password" id="password" name="password" required
+                    [(ngModel)]="loginObj.password">
+
+            </div>
+            <button (click)="onLogin()" class="btn btn-success btn-block" type="submit">login</button>
+
+        </form>
+    </div>
+</div>

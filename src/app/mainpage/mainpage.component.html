@@ -1,0 +1,44 @@
+<!-- Sidebar -->
+<div class="home__body__sidebarLeft">
+    <div class="inside">
+        <mat-icon>local_hospital</mat-icon>
+        <span class="covid">COVID-19 Information Center</span>
+        <div>
+            <mat-icon class="icon">flag</mat-icon>
+            <span class="icon-des">Pages</span>
+        </div>
+        <div>
+            <mat-icon class="icon">people</mat-icon>
+            <span class="icon-des">Friends</span>
+        </div>
+        <div>
+            <mat-icon class="icon">chat</mat-icon>
+            <span class="icon-des">Messenger</span>
+        </div>
+        <div>
+            <mat-icon class="icon">store</mat-icon>
+            <span class="icon-des">Marketplace</span>
+        </div>
+        <div>
+            <mat-icon class="icon">video_library</mat-icon>
+            <span class="icon-des">Videos</span>
+        </div>
+        <div>
+            <mat-icon class="see-more">expand_more</mat-icon>
+            <span>See More</span>
+        </div>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div class="home container mt-5">
+    <h1 class="mb-4">Recent Posts</h1>
+    <div class="mb-3">
+        <textarea class="form-control mb-3" #postContent placeholder="What's on your mind?" id="floatingTextarea"
+            rows="4"></textarea>
+        <div class="d-flex justify-content-end">
+            <button type="button" class="comment-button" (click)="addPost(postContent.value)">Post</button>
+        </div>
+    </div>
+    <app-post *ngFor="let post of posts" [post]="post"></app-post>
+</div>
