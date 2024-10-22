@@ -31,20 +31,20 @@ imagine a social media app designed with a sleek, user-friendly interface that n
 
 
 ## Stunning landing page
-![](Screenshots/1.png)
+![](ScreenShot/1.png)
 
-![](Screenshots/2.png)
+![](ScreenShot/2.png)
 
-![](Screenshots/3.png)
+![](ScreenShot/3.png)
 
-![](Screenshots/4.png)
+![](ScreenShot/4.png)
 
-![](Screenshots/5.png)
+![](ScreenShot/5.png)
 
-![](Screenshots/6.png)
+![](ScreenShot/6.png)
 
 
-![](Screenshots/7.png)
+![](ScreenShot/7.png)
 
 
 
