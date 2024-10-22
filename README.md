@@ -25,3 +25,30 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+imagine a social media app designed with a sleek, user-friendly interface that not only lets you create and share posts but also allows you to react and comment on others’ content. This app saves user data locally, ensuring quick access and privacy. Users can seamlessly scroll through their feed, engage with friends' updates through likes, loves, and comments, and even start lively discussions. Whether sharing your latest adventure or sparking a conversation, this app fosters a vibrant, interactive community. It’s more than just a social network—it’s your personal hub for connection and engagement, all stored securely on your local device.
+
+
+## Stunning landing page
+![](Screenshots/1.png)
+
+![](Screenshots/2.png)
+
+![](Screenshots/3.png)
+
+![](Screenshots/4.png)
+
+![](Screenshots/5.png)
+
+![](Screenshots/6.png)
+
+
+![](Screenshots/7.png)
+
+
+
+
+
+
+
