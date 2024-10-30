@@ -33,7 +33,7 @@ imagine a social media app designed with a sleek, user-friendly interface that n
 ## Stunning landing page
 ![](ScreenShot/1.png)
 
-![](ScreenShot/2.png)
+
 
 ![](ScreenShot/3.png)
 
