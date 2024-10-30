@@ -44,7 +44,6 @@ imagine a social media app designed with a sleek, user-friendly interface that n
 ![](ScreenShot/6.png)
 
 
-![](ScreenShot/7.png)
 
 
 
